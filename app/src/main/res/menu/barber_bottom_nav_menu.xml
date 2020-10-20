@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_choose_barber"
+        android:title="@string/title_clients_requests" />
+
+    <item
+        android:id="@+id/navigation_my_profile"
+        android:icon="@drawable/ic_my_profile"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/navigation_book"
+        android:icon="@drawable/ic_booked_barber"
+        android:title="@string/title_booked" />
+
+</menu>

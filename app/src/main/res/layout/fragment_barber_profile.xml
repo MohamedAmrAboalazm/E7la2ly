@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Barber.BarberProfileFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/default_profile_image"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:id="@+id/barber_profile_image"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salon Name">
+
+
+            <EditText
+                android:id="@+id/salon_name_edit_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Barber Name">
+
+
+            <EditText
+                android:id="@+id/barber_name_edit_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Open Time"
+                >
+
+
+                <EditText
+                    android:id="@+id/barber_open_time_edit_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:maxLines="1"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Close Time"
+                android:layout_weight="1">
+
+
+                <EditText
+                    android:id="@+id/barber_close_time_edit_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:maxLines="1"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Hair Price"
+                >
+
+
+                <EditText
+                    android:id="@+id/barber_hair_cut_price_edit_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Beard Price"
+                android:layout_weight="1">
+
+
+                <EditText
+                    android:id="@+id/barber_beard_cut_price_edit_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Others Price">
+
+
+            <EditText
+                android:id="@+id/barber_others_price_edit_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email">
+
+
+            <EditText
+                android:id="@+id/barber_email_edit_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PhoneNumber">
+
+
+            <EditText
+                android:id="@+id/barber_phone_edit_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="15dp"
+                />
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/save_barber_btn"
+            android:text="Save Data"
+            android:textColor="#000000"
+            android:background = "@drawable/roundedbutton"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete_barber_account_btn"
+            android:text="Delete Account"
+            android:background = "@drawable/roundedbutton"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/barber_log_out_btn"
+            android:text="Log out"
+            android:background = "@drawable/roundedbutton"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

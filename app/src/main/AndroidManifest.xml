@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.e7la2ly">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VerifyPhoneNumberActivity"></activity>
+        <activity android:name=".Barber.BarberProfileFragment" />
+        <activity
+            android:name=".Barber.BarberHomeActivity"
+            android:label="@string/title_activity_barber_home" />
+        <activity android:name=".SelectClientOrBarberActivity" />
+        <activity android:name=".Barber.BarberRegisterationActivity" />
+        <activity android:name=".Account.LoginActivity" />
+        <activity android:name=".Client.ClientHomeActivity" />
+        <activity android:name=".Client.ClientRegisterationActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
